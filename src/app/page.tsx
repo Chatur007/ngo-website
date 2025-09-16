@@ -46,7 +46,7 @@ export default function Home() {
             <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
               <Link href="/get-involved">Join Us</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 bg-transparent">
               <Link href="/about">Learn More</Link>
             </Button>
           </div>
