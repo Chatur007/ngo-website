@@ -46,7 +46,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-4">
           <Button asChild className="hidden md:flex bg-accent hover:bg-accent/90 text-accent-foreground">
-            <Link href="/get-involved">Get Involved</Link>
+            <Link href="/get-involved">Join Programs</Link>
           </Button>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -78,7 +78,7 @@ export function Navbar() {
                 </nav>
                 <Button asChild className="mt-8 w-full bg-accent hover:bg-accent/90 text-accent-foreground">
                   <Link href="/get-involved" onClick={() => setIsOpen(false)}>
-                    Get Involved
+                    Join Programs
                   </Link>
                 </Button>
               </div>

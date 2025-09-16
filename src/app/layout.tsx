@@ -5,9 +5,9 @@ import { Footer } from '@/components/layout/footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'EduFuture',
-  description: 'A non-profit organization dedicated to bringing educational opportunities to communities in need.',
-  keywords: ['NGO', 'non-profit', 'charity', 'education', 'sustainability', 'community support']
+  title: 'CareerUp',
+  description: 'A non-profit organization dedicated to helping youth and professionals succeed in their careers.',
+  keywords: ['NGO', 'non-profit', 'career development', 'resume building', 'job referral', 'mentorship']
 };
 
 export default function RootLayout({

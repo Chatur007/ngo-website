@@ -2,75 +2,75 @@
   "placeholderImages": [
     {
       "id": "hero-banner",
-      "description": "A diverse group of students collaborating in a modern classroom.",
+      "description": "A diverse group of professionals collaborating in a modern office.",
       "imageUrl": "https://picsum.photos/seed/1/1920/1080",
-      "imageHint": "students learning"
+      "imageHint": "professionals working"
     },
     {
       "id": "about-history",
-      "description": "An early photo of a one-room schoolhouse, representing the organization's beginnings.",
+      "description": "An early photo of a workshop, representing the organization's beginnings.",
       "imageUrl": "https://picsum.photos/seed/2/600/400",
-      "imageHint": "vintage school"
+      "imageHint": "vintage workshop"
     },
     {
       "id": "team-1",
       "description": "Portrait of the Founder & CEO.",
       "imageUrl": "https://picsum.photos/seed/3/400/400",
-      "imageHint": "female educator"
+      "imageHint": "female leader"
     },
     {
       "id": "team-2",
-      "description": "Portrait of the Director of Programs.",
+      "description": "Portrait of the Head of Mentorship.",
       "imageUrl": "https://picsum.photos/seed/4/400/400",
-      "imageHint": "male educator"
+      "imageHint": "male professional"
     },
     {
       "id": "team-3",
-      "description": "Portrait of the Community Outreach Coordinator.",
+      "description": "Portrait of the Career Counselor.",
       "imageUrl": "https://picsum.photos/seed/5/400/400",
-      "imageHint": "smiling teacher"
+      "imageHint": "smiling professional"
     },
     {
       "id": "team-4",
-      "description": "Portrait of the Curriculum Lead.",
+      "description": "Portrait of the Workshop Facilitator.",
       "imageUrl": "https://picsum.photos/seed/6/400/400",
-      "imageHint": "education professional"
+      "imageHint": "career coach"
     },
     {
-      "id": "program-education",
-      "description": "A child happily reading a book in a library.",
+      "id": "program-resume",
+      "description": "A person reviewing a resume on a laptop.",
       "imageUrl": "https://picsum.photos/seed/7/600/400",
-      "imageHint": "child reading"
+      "imageHint": "resume writing"
     },
     {
-      "id": "program-health",
-      "description": "A school nurse checking a student's temperature.",
+      "id": "program-referral",
+      "description": "A handshake between a candidate and a hiring manager.",
       "imageUrl": "https://picsum.photos/seed/8/600/400",
-      "imageHint": "school nurse"
+      "imageHint": "job interview"
     },
     {
-      "id": "program-sustainability",
-      "description": "Students working on a school garden project.",
+      "id": "program-guidance",
+      "description": "A mentor guiding a young professional.",
       "imageUrl": "https://picsum.photos/seed/9/600/400",
-      "imageHint": "school garden"
+      "imageHint": "career mentorship"
     },
     {
       "id": "impact-story-1",
-      "description": "A young student smiling proudly with a graduation certificate.",
+      "description": "A young professional smiling proudly in their new office.",
       "imageUrl": "https://picsum.photos/seed/10/600/400",
-      "imageHint": "student graduation"
+      "imageHint": "young professional"
     },
     {
       "id": "impact-story-2",
-      "description": "Community members building a new school.",
+      "description": "A collage of improved resumes.",
       "imageUrl": "https://picsum.photos/seed/11/600/400",
-      "imageHint": "building school"
+      "imageHint": "resume examples"
     },
     {
       "id": "impact-story-3",
-      "description": "A student learning a new skill in a vocational training class.",
+      "description": "A person confidently participating in a job interview.",
       "imageUrl": "https://picsum.photos/seed/12/600/400",
-      "imageHint": "vocational training"
+      "imageHint": "job interview"
     }
   ]
 }

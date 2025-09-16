@@ -3,13 +3,12 @@ import { PageHeader } from "@/components/page-header";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Separator } from "@/components/ui/separator";
 
 const teamMembers = [
   { id: 1, name: "Dr. Evelyn Reed", role: "Founder & CEO", imageId: "team-1" },
-  { id: 2, name: "Marcus Thorne", role: "Director of Programs", imageId: "team-2" },
-  { id: 3, name: "Lena Petrova", role: "Community Outreach Coordinator", imageId: "team-3" },
-  { id: 4, name: "Samuel Green", role: "Healthcare Lead", imageId: "team-4" },
+  { id: 2, name: "Marcus Thorne", role: "Head of Mentorship", imageId: "team-2" },
+  { id: 3, name: "Lena Petrova", role: "Lead Career Counselor", imageId: "team-3" },
+  { id: 4, name: "Samuel Green", role: "Workshop Facilitator", imageId: "team-4" },
 ];
 
 export default function AboutPage() {
@@ -18,8 +17,8 @@ export default function AboutPage() {
   return (
     <div>
       <PageHeader
-        title="About Hope Harbor"
-        subtitle="Learn about our journey, our mission, and the dedicated people behind our work."
+        title="About CareerUp"
+        subtitle="Learn about our mission to help youth and professionals succeed in their careers."
       />
 
       <section className="py-16 md:py-24">
@@ -28,13 +27,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-2xl md:text-3xl font-bold font-headline mb-4 text-accent">Our Mission</h2>
               <p className="text-lg text-muted-foreground mb-8">
-                To empower vulnerable communities by providing sustainable solutions in education, healthcare, and environmental conservation, fostering a future where every individual has the opportunity to thrive.
+                To bridge the gap between education and employment by providing youth and professionals with the essential tools, skills, and mentorship needed to launch and advance their careers.
               </p>
             </div>
             <div>
               <h2 className="text-2xl md:text-3xl font-bold font-headline mb-4 text-accent">Our Vision</h2>
               <p className="text-lg text-muted-foreground">
-                We envision a world of equity and compassion, where every community is self-reliant, every child is educated, every person is healthy, and our planet is protected for generations to come.
+                We envision a world where every individual has the opportunity to achieve their full career potential, supported by a community that fosters growth, learning, and success.
               </p>
             </div>
           </div>
@@ -58,8 +57,8 @@ export default function AboutPage() {
             <div className={historyImage ? '' : 'md:col-span-2'}>
               <h2 className="text-3xl md:text-4xl font-bold font-headline mb-6">Our History</h2>
               <div className="space-y-4 text-muted-foreground">
-                <p>Founded in 2010 by Dr. Evelyn Reed, Hope Harbor began as a small-scale initiative to provide basic literacy classes in a single village. Inspired by the community's resilience, our work quickly expanded.</p>
-                <p>By 2015, we had launched our first mobile health clinic. Today, we operate across multiple regions, impacting thousands of lives through a holistic approach that integrates education, health, and sustainability. Our growth is a testament to the power of collective action and unwavering hope.</p>
+                <p>Founded in 2018 by Dr. Evelyn Reed, a veteran HR professional, CareerUp started as a weekend resume workshop for local college students. Witnessing the immediate impact of targeted career guidance, the initiative quickly grew.</p>
+                <p>By 2020, we launched our first mentorship program, connecting students with industry professionals. Today, CareerUp offers a comprehensive suite of services, empowering hundreds of individuals annually to navigate the job market with confidence.</p>
               </div>
             </div>
           </div>
@@ -70,7 +69,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold">Meet Our Team</h2>
-            <p className="mt-2 text-lg text-muted-foreground">The driving force behind our mission.</p>
+            <p className="mt-2 text-lg text-muted-foreground">The dedicated mentors and volunteers behind our success.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member) => {
@@ -95,8 +94,8 @@ export default function AboutPage() {
       <section className="bg-gray-100 dark:bg-gray-800 py-12">
         <div className="container mx-auto px-4 text-center">
           <h3 className="text-xl font-bold mb-2">NGO Registration Details</h3>
-          <p className="text-muted-foreground">Hope Harbor is a registered non-governmental organization.</p>
-          <p className="font-mono text-sm text-muted-foreground mt-2">Registration No: 123-456-789 | Registered under The Societies Registration Act, 1860</p>
+          <p className="text-muted-foreground">CareerUp is a registered non-governmental organization.</p>
+          <p className="font-mono text-sm text-muted-foreground mt-2">Registration No: 987-654-321 | Registered under The Societies Registration Act, 1860</p>
         </div>
       </section>
     </div>

@@ -3,32 +3,32 @@ import { PageHeader } from "@/components/page-header";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Users, BookOpen, HeartPulse, Leaf } from "lucide-react";
+import { Users, FileText, Briefcase, UserCheck } from "lucide-react";
 
 const impactStats = [
-  { id: 1, icon: Users, value: "10,000+", label: "Beneficiaries Annually" },
-  { id: 2, icon: BookOpen, value: "500+", label: "Scholarships Awarded" },
-  { id: 3, icon: HeartPulse, value: "20+", label: "Medical Camps Conducted" },
-  { id: 4, icon: Leaf, value: "1,000+", label: "Trees Planted This Year" },
+  { id: 1, icon: Users, value: "1,200+", label: "Students Trained" },
+  { id: 2, icon: FileText, value: "800+", label: "Resumes Improved" },
+  { id: 3, icon: Briefcase, value: "400+", label: "Jobs Referred" },
+  { id: 4, icon: UserCheck, value: "90%", label: "Placement Success Rate" },
 ];
 
 const successStories = [
   {
     id: 1,
     name: "Anika Sharma",
-    story: "Thanks to Hope Harbor's scholarship, I am the first in my family to attend university. They didn't just fund my education; they gave me the confidence to dream bigger. I plan to become a teacher and give back to my community.",
+    story: "CareerUp's resume workshop was a game-changer. They helped me highlight my skills in a way I never could have on my own. I landed my dream job just two weeks after their guidance!",
     imageId: "impact-story-1"
   },
   {
     id: 2,
-    name: "The Village of Sunpur",
-    story: "The new well built by Hope Harbor has transformed our lives. We no longer walk miles for clean water. Our children are healthier, and we can now irrigate our farms. It's a gift of life and prosperity.",
+    name: "The Aspiring Developers Group",
+    story: "The job referral program connected us with top tech companies we couldn't reach otherwise. The mock interviews gave us the confidence to ace the real ones. We are all now working as software engineers.",
     imageId: "impact-story-2"
   },
   {
     id: 3,
     name: "Rajesh Kumar",
-    story: "After losing my job, the vocational training from Hope Harbor was a lifeline. I learned carpentry, and now I run my own small workshop. My family is secure, and I feel proud of what I can provide for them.",
+    story: "As a recent graduate, I was lost. The mentorship I received from CareerUp was invaluable. My mentor guided me, helped me network, and ultimately helped me secure my first full-time role.",
     imageId: "impact-story-3"
   }
 ];
@@ -38,14 +38,14 @@ export default function ImpactPage() {
     <div>
       <PageHeader
         title="Our Impact & Success Stories"
-        subtitle="Every number tells a story. See the difference we're making together."
+        subtitle="Real results, real careers. See the difference we're making together."
       />
 
       <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Impact in Numbers</h2>
-            <p className="mt-2 text-lg text-muted-foreground">Quantifying our commitment to change.</p>
+            <p className="mt-2 text-lg text-muted-foreground">Quantifying our commitment to career success.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {impactStats.map((stat) => (
@@ -64,8 +64,8 @@ export default function ImpactPage() {
       <section className="py-16 md:py-24 bg-primary/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">Stories of Change</h2>
-            <p className="mt-2 text-lg text-muted-foreground">The real-life impact of your support, told by those we've helped.</p>
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">Stories of Success</h2>
+            <p className="mt-2 text-lg text-muted-foreground">The real-life career transformations enabled by your support.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {successStories.map((item) => {

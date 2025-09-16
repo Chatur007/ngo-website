@@ -2,32 +2,32 @@ import Image from "next/image";
 import { PageHeader } from "@/components/page-header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { BookOpen, HeartPulse, Leaf } from "lucide-react";
+import { FileText, Briefcase, UserCheck } from "lucide-react";
 
 const programs = [
   {
-    id: "education",
-    icon: BookOpen,
-    title: "Education & Empowerment",
-    description: "We believe education is the key to breaking the cycle of poverty. Our programs provide quality schooling, vocational training, and digital literacy for all ages.",
-    imageId: "program-education",
-    features: ["Child Sponsorships", "Adult Literacy Programs", "Vocational Skill Training", "Digital Learning Centers"]
+    id: "resume-building",
+    icon: FileText,
+    title: "Resume Building Workshops",
+    description: "Our hands-on workshops guide you through crafting a professional resume that highlights your strengths and catches the eye of recruiters.",
+    imageId: "program-resume",
+    features: ["One-on-One Resume Review", "ATS Optimization Techniques", "Cover Letter Writing", "LinkedIn Profile Enhancement"]
   },
   {
-    id: "health",
-    icon: HeartPulse,
-    title: "Health & Nutrition",
-    description: "A healthy community is a thriving community. We run mobile clinics, health awareness camps, and nutrition programs to ensure well-being for all.",
-    imageId: "program-health",
-    features: ["Mobile Medical Units", "Maternal and Child Health", "Nutrition Support", "Hygiene & Sanitation Drives"]
+    id: "job-referral",
+    icon: Briefcase,
+    title: "Job Referral Assistance",
+    description: "Leverage our network of corporate partners to get exclusive access to job openings and a direct line to hiring managers.",
+    imageId: "program-referral",
+    features: ["Access to Partner Network", "Exclusive Job Postings", "Interview Preparation", "Mock Interview Sessions"]
   },
   {
-    id: "sustainability",
-    icon: Leaf,
-    title: "Environmental Sustainability",
-    description: "Protecting our planet is protecting our future. We lead initiatives for reforestation, clean water access, and promoting sustainable livelihoods.",
-    imageId: "program-sustainability",
-    features: ["Reforestation Projects", "Clean Water Solutions", "Renewable Energy Access", "Sustainable Agriculture"]
+    id: "career-guidance",
+    icon: UserCheck,
+    title: "Career Guidance & Mentorship",
+    description: "Connect with experienced professionals in your desired field for personalized advice, industry insights, and long-term career planning.",
+    imageId: "program-guidance",
+    features: ["Personalized Career Mapping", "Industry Expert Mentors", "Networking Events", "Soft Skills Development"]
   },
 ];
 
@@ -35,8 +35,8 @@ export default function ServicesPage() {
   return (
     <div>
       <PageHeader
-        title="Our Programs"
-        subtitle="Creating sustainable impact through focused, community-centric initiatives."
+        title="Our Services"
+        subtitle="Providing the tools and support you need to build a successful career."
       />
       <div className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">

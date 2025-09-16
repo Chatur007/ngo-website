@@ -60,7 +60,7 @@ export default function ContactPage() {
     <div>
       <PageHeader
         title="Contact Us"
-        subtitle="We'd love to hear from you. Reach out with any questions, or just to say hello."
+        subtitle="We'd love to hear from you. Reach out with any questions, partnership proposals, or just to say hello."
       />
 
       <section className="py-16 md:py-24">
@@ -76,7 +76,7 @@ export default function ContactPage() {
               <div className="space-y-4 text-lg">
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-accent" />
-                  <span>123 Hope Avenue, Unity City, 12345</span>
+                  <span>123 Success Lane, Ambition City, 12345</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Phone className="w-6 h-6 text-accent" />
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="w-6 h-6 text-accent" />
-                  <a href="mailto:info@hopeharbor.org" className="hover:text-accent transition-colors">info@hopeharbor.org</a>
+                  <a href="mailto:info@careerup.org" className="hover:text-accent transition-colors">info@careerup.org</a>
                 </div>
               </div>
               <div>
@@ -137,7 +137,7 @@ export default function ContactPage() {
                       <FormItem>
                         <FormLabel>Subject</FormLabel>
                         <FormControl>
-                          <Input placeholder="Question about volunteering" {...field} />
+                          <Input placeholder="Question about mentorship" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
