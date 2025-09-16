@@ -49,8 +49,8 @@ export function Footer() {
             <div className="flex space-x-2">
               {socialLinks.map(social => (
                  <Link key={social.name} href={social.href} target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label={social.name}>
-                    <social.icon className="h-5 w-5 text-muted-foreground hover:text-accent" />
+                  <Button variant="ghost" size="icon" aria-label={social.name} className="group">
+                    <social.icon className="h-5 w-5 text-muted-foreground group-hover:text-white transition-colors" />
                   </Button>
                  </Link>
               ))}
