@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-banner",
+      "description": "A group of diverse, smiling volunteers working together in a sunny field.",
+      "imageUrl": "https://picsum.photos/seed/1/1920/1080",
+      "imageHint": "community volunteers"
+    },
+    {
+      "id": "about-history",
+      "description": "An old photograph showing the humble beginnings of the NGO.",
+      "imageUrl": "https://picsum.photos/seed/2/600/400",
+      "imageHint": "community meeting"
+    },
+    {
+      "id": "team-1",
+      "description": "Portrait of Dr. Evelyn Reed, Founder & CEO.",
+      "imageUrl": "https://picsum.photos/seed/3/400/400",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "team-2",
+      "description": "Portrait of Marcus Thorne, Director of Programs.",
+      "imageUrl": "https://picsum.photos/seed/4/400/400",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "team-3",
+      "description": "Portrait of Lena Petrova, Community Outreach Coordinator.",
+      "imageUrl": "https://picsum.photos/seed/5/400/400",
+      "imageHint": "smiling woman"
+    },
+    {
+      "id": "team-4",
+      "description": "Portrait of Samuel Green, Healthcare Lead.",
+      "imageUrl": "https://picsum.photos/seed/6/400/400",
+      "imageHint": "doctor smiling"
+    },
+    {
+      "id": "program-education",
+      "description": "A child happily reading a book in an outdoor classroom.",
+      "imageUrl": "https://picsum.photos/seed/7/600/400",
+      "imageHint": "child reading"
+    },
+    {
+      "id": "program-health",
+      "description": "A doctor checking a patient's blood pressure at a village health camp.",
+      "imageUrl": "https://picsum.photos/seed/8/600/400",
+      "imageHint": "medical checkup"
+    },
+    {
+      "id": "program-sustainability",
+      "description": "Volunteers planting saplings in a barren field.",
+      "imageUrl": "https://picsum.photos/seed/9/600/400",
+      "imageHint": "planting trees"
+    },
+    {
+      "id": "impact-story-1",
+      "description": "A young student smiling proudly with a graduation certificate.",
+      "imageUrl": "https://picsum.photos/seed/10/600/400",
+      "imageHint": "student graduation"
+    },
+    {
+      "id": "impact-story-2",
+      "description": "Community members gathered around a newly installed water pump.",
+      "imageUrl": "https://picsum.photos/seed/11/600/400",
+      "imageHint": "clean water"
+    },
+    {
+      "id": "impact-story-3",
+      "description": "A man working skillfully in a carpentry workshop.",
+      "imageUrl": "https://picsum.photos/seed/12/600/400",
+      "imageHint": "local artisan"
+    }
+  ]
 }
