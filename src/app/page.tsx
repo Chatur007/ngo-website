@@ -36,7 +36,7 @@ const programs = [
 export default function Home() {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
-  )
+  );
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -44,8 +44,6 @@ export default function Home() {
         <Carousel
           plugins={[plugin.current]}
           className="w-full h-full"
-          onMouseEnter={plugin.current.stop}
-          onMouseLeave={plugin.current.reset}
         >
           <CarouselContent className="h-full">
             {heroImages.map((heroImage) => (
