@@ -5,21 +5,21 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { BookOpen, HeartHandshake, HeartPulse, Leaf, Users } from "lucide-react";
+import { BookOpen, GraduationCap, School, Users } from "lucide-react";
 
 const heroImage = PlaceHolderImages.find(p => p.id === 'hero-banner');
 
 const impactStats = [
-  { id: 1, icon: Users, value: "10,000+", label: "Beneficiaries Helped" },
-  { id: 2, icon: HeartHandshake, value: "50+", label: "Completed Projects" },
-  { id: 3, icon: BookOpen, value: "5,000+", label: "Students Educated" },
-  { id: 4, icon: Leaf, value: "1,000+", label: "Trees Planted" },
+  { id: 1, icon: Users, value: "5,000+", label: "Students Enrolled" },
+  { id: 2, icon: School, value: "50+", label: "Schools Built" },
+  { id: 3, icon: GraduationCap, value: "10,000+", label: "Graduates" },
+  { id: 4, icon: BookOpen, value: "50,000+", label: "Books Donated" },
 ];
 
 const programs = [
-  { id: 1, icon: BookOpen, title: "Education for All", description: "Providing access to quality education for underprivileged children and adults." },
-  { id: 2, icon: HeartPulse, title: "Health & Wellness", description: "Offering medical support, health camps, and wellness awareness programs." },
-  { id: 3, icon: Leaf, title: "Sustainable Living", description: "Promoting eco-friendly practices and sustainable community development." },
+  { id: 1, icon: BookOpen, title: "Literacy for All", description: "Providing access to quality education and reading materials for all ages." },
+  { id: 2, icon: GraduationCap, title: "Scholarship Fund", description: "Offering financial support for higher education to promising students." },
+  { id: 3, icon: School, title: "Build a School", description: "Constructing and renovating schools in remote and underserved areas." },
 ];
 
 export default function Home() {
@@ -39,14 +39,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 p-4">
           <h1 className="text-4xl md:text-6xl font-headline font-bold tracking-tight">
-            Together, We Transform Lives
+            Unlocking Potential Through Education
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl">
-            Bringing hope and support to communities in need through compassionate action.
+            Empowering future generations with the knowledge and skills to succeed.
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              <Link href="/get-involved">Join Us</Link>
+              <Link href="/get-involved">Get Involved</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/20 bg-transparent">
               <Link href="/about">Learn More</Link>
@@ -58,8 +58,8 @@ export default function Home() {
       <section id="impact" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Impact in Numbers</h2>
-            <p className="mt-2 text-lg text-muted-foreground">Making a tangible difference, one life at a time.</p>
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">Our Educational Impact</h2>
+            <p className="mt-2 text-lg text-muted-foreground">Making a tangible difference, one student at a time.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {impactStats.map((stat) => (

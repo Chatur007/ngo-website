@@ -26,10 +26,10 @@ export function Footer() {
           <div className="md:col-span-2">
             <Logo />
             <p className="mt-4 text-muted-foreground max-w-sm">
-              Hope Harbor is a non-profit organization dedicated to bringing hope and support to communities in need.
+              EduFuture is a non-profit organization dedicated to providing educational opportunities to communities in need.
             </p>
             <p className="mt-4 text-sm text-muted-foreground">
-              123 Hope Avenue, Unity City, 12345
+              123 Knowledge Lane, Wisdom City, 12345
             </p>
           </div>
           <div>
@@ -49,8 +49,8 @@ export function Footer() {
             <div className="flex space-x-2">
               {socialLinks.map(social => (
                  <Link key={social.name} href={social.href} target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label={social.name} className="group">
-                    <social.icon className="h-5 w-5 text-muted-foreground group-hover:text-white transition-colors" />
+                  <Button variant="ghost" size="icon" aria-label={social.name} className="group hover:bg-primary">
+                    <social.icon className="h-5 w-5 text-muted-foreground group-hover:text-primary-foreground transition-colors" />
                   </Button>
                  </Link>
               ))}
@@ -58,7 +58,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Hope Harbor. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} EduFuture. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -2,69 +2,57 @@
   "placeholderImages": [
     {
       "id": "hero-banner",
-      "description": "A group of diverse, smiling volunteers working together in a sunny field.",
+      "description": "A diverse group of students collaborating in a modern classroom.",
       "imageUrl": "https://picsum.photos/seed/1/1920/1080",
-      "imageHint": "community volunteers"
-    },
-    {
-      "id": "hero-banner-2",
-      "description": "Children smiling in a classroom.",
-      "imageUrl": "https://picsum.photos/seed/13/1920/1080",
-      "imageHint": "happy children"
-    },
-    {
-      "id": "hero-banner-3",
-      "description": "A doctor attending to a patient in a rural medical camp.",
-      "imageUrl": "https://picsum.photos/seed/14/1920/1080",
-      "imageHint": "health camp"
+      "imageHint": "students learning"
     },
     {
       "id": "about-history",
-      "description": "An old photograph showing the humble beginnings of the NGO.",
+      "description": "An early photo of a one-room schoolhouse, representing the organization's beginnings.",
       "imageUrl": "https://picsum.photos/seed/2/600/400",
-      "imageHint": "community meeting"
+      "imageHint": "vintage school"
     },
     {
       "id": "team-1",
-      "description": "Portrait of Dr. Evelyn Reed, Founder & CEO.",
+      "description": "Portrait of the Founder & CEO.",
       "imageUrl": "https://picsum.photos/seed/3/400/400",
-      "imageHint": "professional woman"
+      "imageHint": "female educator"
     },
     {
       "id": "team-2",
-      "description": "Portrait of Marcus Thorne, Director of Programs.",
+      "description": "Portrait of the Director of Programs.",
       "imageUrl": "https://picsum.photos/seed/4/400/400",
-      "imageHint": "professional man"
+      "imageHint": "male educator"
     },
     {
       "id": "team-3",
-      "description": "Portrait of Lena Petrova, Community Outreach Coordinator.",
+      "description": "Portrait of the Community Outreach Coordinator.",
       "imageUrl": "https://picsum.photos/seed/5/400/400",
-      "imageHint": "smiling woman"
+      "imageHint": "smiling teacher"
     },
     {
       "id": "team-4",
-      "description": "Portrait of Samuel Green, Healthcare Lead.",
+      "description": "Portrait of the Curriculum Lead.",
       "imageUrl": "https://picsum.photos/seed/6/400/400",
-      "imageHint": "doctor smiling"
+      "imageHint": "education professional"
     },
     {
       "id": "program-education",
-      "description": "A child happily reading a book in an outdoor classroom.",
+      "description": "A child happily reading a book in a library.",
       "imageUrl": "https://picsum.photos/seed/7/600/400",
       "imageHint": "child reading"
     },
     {
       "id": "program-health",
-      "description": "A doctor checking a patient's blood pressure at a village health camp.",
+      "description": "A school nurse checking a student's temperature.",
       "imageUrl": "https://picsum.photos/seed/8/600/400",
-      "imageHint": "medical checkup"
+      "imageHint": "school nurse"
     },
     {
       "id": "program-sustainability",
-      "description": "Volunteers planting saplings in a barren field.",
+      "description": "Students working on a school garden project.",
       "imageUrl": "https://picsum.photos/seed/9/600/400",
-      "imageHint": "planting trees"
+      "imageHint": "school garden"
     },
     {
       "id": "impact-story-1",
@@ -74,15 +62,15 @@
     },
     {
       "id": "impact-story-2",
-      "description": "Community members gathered around a newly installed water pump.",
+      "description": "Community members building a new school.",
       "imageUrl": "https://picsum.photos/seed/11/600/400",
-      "imageHint": "clean water"
+      "imageHint": "building school"
     },
     {
       "id": "impact-story-3",
-      "description": "A man working skillfully in a carpentry workshop.",
+      "description": "A student learning a new skill in a vocational training class.",
       "imageUrl": "https://picsum.photos/seed/12/600/400",
-      "imageHint": "local artisan"
+      "imageHint": "vocational training"
     }
   ]
 }

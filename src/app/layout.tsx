@@ -5,9 +5,9 @@ import { Footer } from '@/components/layout/footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Hope Harbor',
-  description: 'A non-profit organization dedicated to bringing hope and support to communities in need.',
-  keywords: ['NGO', 'non-profit', 'charity', 'community support', 'education', 'health', 'sustainability']
+  title: 'EduFuture',
+  description: 'A non-profit organization dedicated to bringing educational opportunities to communities in need.',
+  keywords: ['NGO', 'non-profit', 'charity', 'education', 'sustainability', 'community support']
 };
 
 export default function RootLayout({
