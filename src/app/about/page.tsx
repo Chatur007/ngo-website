@@ -17,7 +17,7 @@ export default function AboutPage() {
   return (
     <div>
       <PageHeader
-        title="About CareerUp"
+        title="About Skill Brace"
         subtitle="Learn about our mission to help youth and professionals succeed in their careers."
       />
 
@@ -57,8 +57,8 @@ export default function AboutPage() {
             <div className={historyImage ? '' : 'md:col-span-2'}>
               <h2 className="text-3xl md:text-4xl font-bold font-headline mb-6">Our History</h2>
               <div className="space-y-4 text-muted-foreground">
-                <p>Founded in 2018 by Dr. Evelyn Reed, a veteran HR professional, CareerUp started as a weekend resume workshop for local college students. Witnessing the immediate impact of targeted career guidance, the initiative quickly grew.</p>
-                <p>By 2020, we launched our first mentorship program, connecting students with industry professionals. Today, CareerUp offers a comprehensive suite of services, empowering hundreds of individuals annually to navigate the job market with confidence.</p>
+                <p>Founded in 2018 by Dr. Evelyn Reed, a veteran HR professional, Skill Brace started as a weekend resume workshop for local college students. Witnessing the immediate impact of targeted career guidance, the initiative quickly grew.</p>
+                <p>By 2020, we launched our first mentorship program, connecting students with industry professionals. Today, Skill Brace offers a comprehensive suite of services, empowering hundreds of individuals annually to navigate the job market with confidence.</p>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function AboutPage() {
       <section className="bg-gray-100 dark:bg-gray-800 py-12">
         <div className="container mx-auto px-4 text-center">
           <h3 className="text-xl font-bold mb-2">NGO Registration Details</h3>
-          <p className="text-muted-foreground">CareerUp is a registered non-governmental organization.</p>
+          <p className="text-muted-foreground">Skill Brace is a registered non-governmental organization.</p>
           <p className="font-mono text-sm text-muted-foreground mt-2">Registration No: 987-654-321 | Registered under The Societies Registration Act, 1860</p>
         </div>
       </section>

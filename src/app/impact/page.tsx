@@ -16,7 +16,7 @@ const successStories = [
   {
     id: 1,
     name: "Anika Sharma",
-    story: "CareerUp's resume workshop was a game-changer. They helped me highlight my skills in a way I never could have on my own. I landed my dream job just two weeks after their guidance!",
+    story: "Skill Brace's resume workshop was a game-changer. They helped me highlight my skills in a way I never could have on my own. I landed my dream job just two weeks after their guidance!",
     imageId: "impact-story-1"
   },
   {
@@ -28,7 +28,7 @@ const successStories = [
   {
     id: 3,
     name: "Rajesh Kumar",
-    story: "As a recent graduate, I was lost. The mentorship I received from CareerUp was invaluable. My mentor guided me, helped me network, and ultimately helped me secure my first full-time role.",
+    story: "As a recent graduate, I was lost. The mentorship I received from Skill Brace was invaluable. My mentor guided me, helped me network, and ultimately helped me secure my first full-time role.",
     imageId: "impact-story-3"
   }
 ];
