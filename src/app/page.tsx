@@ -1,11 +1,24 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { BookOpen, HeartHandshake, HeartPulse, Leaf, Users } from "lucide-react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay"
+import React from "react";
 
-const heroImage = PlaceHolderImages.find(p => p.id === 'hero-banner');
+const heroImages = [
+  PlaceHolderImages.find(p => p.id === 'hero-banner'),
+  PlaceHolderImages.find(p => p.id === 'hero-banner-2'),
+  PlaceHolderImages.find(p => p.id === 'hero-banner-3')
+].filter(Boolean) as any[];
 
 const impactStats = [
   { id: 1, icon: Users, value: "10,000+", label: "Beneficiaries Helped" },
@@ -21,23 +34,39 @@ const programs = [
 ];
 
 export default function Home() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 2000, stopOnInteraction: true })
+  )
+
   return (
     <div className="flex flex-col min-h-screen">
       <section className="relative h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
-        )}
+        <Carousel
+          plugins={[plugin.current]}
+          className="w-full h-full"
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={plugin.current.reset}
+        >
+          <CarouselContent className="h-full">
+            {heroImages.map((heroImage) => (
+              <CarouselItem key={heroImage.id} className="h-full">
+                <Image
+                  src={heroImage.imageUrl}
+                  alt={heroImage.description}
+                  fill
+                  className="object-cover"
+                  priority
+                  data-ai-hint={heroImage.imageHint}
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
+
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 p-4">
           <h1 className="text-4xl md:text-6xl font-headline font-bold tracking-tight">
-            Welcome to Hope Harbor
+            Together, We Transform Lives
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl">
             Bringing hope and support to communities in need through compassionate action.

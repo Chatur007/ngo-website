@@ -7,6 +7,18 @@
       "imageHint": "community volunteers"
     },
     {
+      "id": "hero-banner-2",
+      "description": "Children smiling in a classroom.",
+      "imageUrl": "https://picsum.photos/seed/13/1920/1080",
+      "imageHint": "happy children"
+    },
+    {
+      "id": "hero-banner-3",
+      "description": "A doctor attending to a patient in a rural medical camp.",
+      "imageUrl": "https://picsum.photos/seed/14/1920/1080",
+      "imageHint": "health camp"
+    },
+    {
       "id": "about-history",
       "description": "An old photograph showing the humble beginnings of the NGO.",
       "imageUrl": "https://picsum.photos/seed/2/600/400",
