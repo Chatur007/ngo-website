@@ -5,7 +5,7 @@ import { Footer } from '@/components/layout/footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Skill Brace',
+  title: 'Skillbridge',
   description: 'A non-profit organization dedicated to helping youth and professionals succeed in their careers.',
   keywords: ['NGO', 'non-profit', 'career development', 'resume building', 'job referral', 'mentorship']
 };

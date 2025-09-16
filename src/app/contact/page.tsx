@@ -85,7 +85,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="w-6 h-6 text-accent" />
-                  <a href="mailto:info@skillbrace.org" className="hover:text-accent transition-colors">info@skillbrace.org</a>
+                  <a href="mailto:info@skillbridge.org" className="hover:text-accent transition-colors">info@skillbridge.org</a>
                 </div>
               </div>
               <div>

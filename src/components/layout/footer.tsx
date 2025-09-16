@@ -26,7 +26,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <Logo />
             <p className="mt-4 text-muted-foreground max-w-sm">
-              Skill Brace is a non-profit organization dedicated to helping youth and professionals succeed in their careers.
+              Skillbridge is a non-profit organization dedicated to helping youth and professionals succeed in their careers.
             </p>
             <p className="mt-4 text-sm text-muted-foreground">
               123 Success Lane, Ambition City, 12345
@@ -58,7 +58,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Skill Brace. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Skillbridge. All rights reserved.</p>
         </div>
       </div>
     </footer>

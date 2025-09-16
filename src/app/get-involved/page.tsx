@@ -84,7 +84,7 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
-                  Become a Skill Brace sustainer. Monthly donations provide stable funding for our ongoing mentorship programs and resource development.
+                  Become a Skillbridge sustainer. Monthly donations provide stable funding for our ongoing mentorship programs and resource development.
                 </p>
                 <Button variant="secondary" className="w-full">Become a Monthly Donor</Button>
               </CardContent>
