@@ -17,7 +17,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { PageHeader } from "@/components/page-header";
-import { Mail, Phone, MapPin, Twitter, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Twitter, Facebook, Instagram, Linkedin, Upload } from "lucide-react";
 import Link from "next/link";
 
 const formSchema = z.object({
@@ -25,6 +25,7 @@ const formSchema = z.object({
   email: z.string().email({ message: "Please enter a valid email." }),
   subject: z.string().min(5, { message: "Subject must be at least 5 characters." }),
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
+  resume: z.any().optional(),
 });
 
 const socialLinks = [
@@ -151,6 +152,19 @@ export default function ContactPage() {
                         <FormLabel>Your Message</FormLabel>
                         <FormControl>
                           <Textarea placeholder="Tell us more..." className="min-h-[150px]" {...field} />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                  <FormField
+                    control={form.control}
+                    name="resume"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>Upload Resume (Optional)</FormLabel>
+                        <FormControl>
+                          <Input type="file" {...form.register('resume')} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
